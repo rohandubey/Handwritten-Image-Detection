@@ -1,4 +1,4 @@
-# Enhancing Handwritten Image Detection with GANs and Optical Feature Extraction Techniques
+# Handwritten Image Detection using DCGAN with SIFT and ORB Optical Features
 
 ## Abstract
 This paper presents a novel approach for the Handwritten Image Detection task that combines the deep-convolution GAN (DCGAN) model with optical feature-extraction techniques, including Oriented FAST with Rotated BRIEF (ORB) and Scale Invariant Feature Transform (SIFT) using the Bag-of-Features approach. Our model uses the image and its optical features (SIFT or ORB) as the inputs to a network trained to recognise the shape and orientation of characters from each class. This study examines the effect of both regular and dense optical features. We evaluate our algorithm on the MNIST, EMNIST, and MADBase datasets. The results indicate that GANs using optical feature approaches are superior to classical GANs, with an accuracy improvement of 4.88% in the MNSIT dataset, 6.89% in the EMNIST dataset, and 0.62% in the MADBase dataset. In addition, our approach surpasses the state-of-the-art methods on the MADBase dataset.
